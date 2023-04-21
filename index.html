@@ -475,7 +475,7 @@
         </div>
         <div class="fotter-form">
           <p class="foter-social-text">Subscribe</p>
-          <form>
+          <form class="footer-form">
             <label class="footer-label">
               <input
                 type="email"
@@ -483,13 +483,13 @@
                 class="footer-input"
                 placeholder="E-mail"
               />
-              <button type="submit" class="footer-send-button">
-                Subscribe
-                <svg class="foter-input-svg" style="width: 24px; height: 24px">
-                  <use href="./images/icons.svg#icon-fotter-svg"></use>
-                </svg>
-              </button>
             </label>
+            <button type="submit" class="footer-send-button">
+              Subscribe
+              <svg class="foter-input-svg" style="width: 24px; height: 24px">
+                <use href="./images/icons.svg#icon-fotter-svg"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -501,74 +501,67 @@
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
-        <div class="form-div">
-          <h3 class="form-name">
-            Leave your contacts and we will call you back
-          </h3>
-          <form class="form">
-            <div class="name-input-divs">
-              <label class="send-list item name-label">
-                Name
-                <br />
-                <input type="name" name="name" class="name-input" />
-                <svg style="width: 12px; height: 12px" class="name-input-svg">
-                  <use href="./images/icons.svg#icon-name"></use>
-                </svg>
-                <br />
-              </label>
-            </div>
-            <div class="name-input-div">
-              <label class="send-list item global-label-style">
-                Phone
-                <br />
-                <input type="Phone" name="Phone" class="name-input" />
-                <svg style="width: 13px; height: 13px" class="name-input-svg">
-                  <use href="./images/icons.svg#icon-Phones"></use>
-                </svg>
-                <br />
-              </label>
-            </div>
-            <div class="name-input-div">
-              <label class="send-list-item global-label-style">
-                Email
-                <br />
-                <input type="Email" name="Email" class="name-input" />
-                <svg style="width: 15px; height: 12px" class="name-input-svg">
-                  <use href="./images/icons.svg#icon-Email"></use>
-                </svg>
-                <br />
-              </label>
-            </div>
-            <div class="name-input-div tex-area-div">
-              <label class="send-list item global-label-style">
-                Comment
-                <br />
-                <textarea
-                  name="Comment"
-                  placeholder="Text input"
-                  class="coment-input"
-                ></textarea>
-                <br />
-              </label>
-            </div>
-            <div class="name-input-divst">
-              <label class="send-list item chekbox-label global-label-style">
-                <input
-                  type="checkbox"
-                  name="hobby"
-                  value="sports"
-                  class="chekbox"
-                />
-                <span class="chekbox-label-span flex"> </span>
-                I accept the terms and conditions of the
-                <a href="./index.html" class="check-link link"
-                  >Privacy Policy</a
-                >
-              </label>
-            </div>
+
+        <h3 class="form-name">Leave your contacts and we will call you back</h3>
+        <form class="form">
+          <div class="name-input-divs">
+            <label class="send-list item name-label">
+              Name
+
+              <input type="name" name="name" class="name-input" />
+              <svg style="width: 12px; height: 12px" class="name-input-svg">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </label>
+          </div>
+          <div class="name-input-div">
+            <label class="send-list item global-label-style">
+              Phone
+
+              <input type="Phone" name="Phone" class="name-input" />
+              <svg style="width: 13px; height: 13px" class="name-input-svg">
+                <use href="./images/icons.svg#icon-Phones"></use>
+              </svg>
+            </label>
+          </div>
+          <div class="name-input-div">
+            <label class="send-list-item global-label-style">
+              Email
+
+              <input type="Email" name="Email" class="name-input" />
+              <svg style="width: 15px; height: 12px" class="name-input-svg">
+                <use href="./images/icons.svg#icon-Email"></use>
+              </svg>
+            </label>
+          </div>
+          <div class="name-input-div tex-area-div">
+            <label class="send-list item global-label-style">
+              Comment
+
+              <textarea
+                name="Comment"
+                placeholder="Text input"
+                class="coment-input"
+              ></textarea>
+            </label>
+          </div>
+          <div class="name-input-divst">
+            <label class="send-list item chekbox-label global-label-style">
+              <input
+                type="checkbox"
+                name="hobby"
+                value="sports"
+                class="chekbox"
+              />
+              <span class="chekbox-label-span flex"> </span>
+              I accept the terms and conditions of the
+              <a href="./index.html" class="check-link link">Privacy Policy</a>
+            </label>
+          </div>
+          <div class="submit-div">
             <button type="submit" class="hero-buton submit-button">Send</button>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
